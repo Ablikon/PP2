@@ -1,4 +1,5 @@
-#LAB1 2 WEEK EXERSICE SOLUTIONS Begimkulov Abylaikhan
+#LAB2
+#2 WEEK EXERSICE SOLUTIONS Begimkulov Abylaikhan
 
 #Booleans1
 print(10>9)
