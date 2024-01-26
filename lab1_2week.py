@@ -1,5 +1,43 @@
 #LAB1 2 WEEK EXERSICE SOLUTIONS Begimkulov Abylaikhan
 
+#Booleans1
+print(10>9)
+True
+
+#Booleans2
+print(10==9)
+False
+
+#Booleans3
+print(10<9)
+False
+
+#Booleans4
+print(bool("abc"))
+True
+
+#Booleans5
+print(bool(0))
+False
+
+#Operators1
+print(10*5)
+
+#Operators2
+print(10/2)
+
+#Operators3
+fruits = ["apple", "banana"]
+if "apple" in fruits:
+  print("Yes, apple is a fruit!")
+
+#Operators4
+if 5 != 10:
+  print("5 and 10 is not equal")
+
+#Operators5
+if 5 == 10 or 4 == 4:
+  print("At least one of the statements is true")
 #Lists1
 fruits = ["apple", "banana", "cherry"]
 print(fruits[1])
@@ -162,3 +200,57 @@ car =	{
   "year": 1964
 }
 car.clear()
+
+#ifelse1
+a = 50
+b = 10
+if a > b:
+  print("Hello World")
+
+#ifelse2
+a = 50
+b = 10
+if a != b:
+  print("Hello World")
+
+#ifelse3
+a = 50
+b = 10
+if a == b:
+  print("Yes")
+else:
+  print("No")
+
+#ifelse4
+a = 50
+b = 10
+if a == b:
+  print("1")
+elif a > b:
+  print("2")
+else:
+  print("3")
+
+#ifelse5
+if a == b and c == d:
+  print("Hello")
+
+#ifelse6
+if a == b or c == d:
+  print("Hello")
+
+#ifelse7
+if 5>2:
+  print("YES")
+
+#ifelse8
+a = 2
+b = 5
+print("YES") if a==b else print("NO")
+
+#ifelse9
+a = 2
+b = 50
+c = 2
+if a==c or b == c:
+  print("YES")
