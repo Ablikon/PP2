@@ -122,7 +122,7 @@ for number in countdown(n):
 #14 Json Using data file sample-data.json, create output that resembles the following by parsing the included JSON file.
 import json
 
-file_path = "/Users/balzhanbatyrbaeva/Downloads/sample-data.json" # Update the file path with the correct file name and extension
+file_path = "/Users/Ablikon/Downloads/sample-data.json"
 
 with open(file_path, "r") as my_file:
     json_string = my_file.read()
